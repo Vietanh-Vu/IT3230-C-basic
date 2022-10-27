@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Welcome to C Programming Basic! \n");
+    printf("Week 2 exercises!\n");
     return 0;
 }
