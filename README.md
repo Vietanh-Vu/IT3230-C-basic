@@ -1,1 +1,3 @@
-# Week 2
+# Week 1
+12 exercises 
+

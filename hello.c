@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Week 2 exercises!\n");
+    printf("Week 1 exercises!\n");
     return 0;
 }
