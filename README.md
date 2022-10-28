@@ -7,3 +7,4 @@
 - Commit:
   - Upload file: "upload 2.1 2.2 2.3"
   - Fix file: "fix 2.1"
+  - Delete file: "delete 2.1"
