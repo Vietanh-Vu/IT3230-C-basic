@@ -5,5 +5,5 @@
 - Upload only \*.c file and remember to write commit.
 - Structure file name: exercise 2.1 --> ex2-1.c
 - Commit:
-  - Upload file: "upload ex2.1"
-  - Fix file: "fix ex2.1"
+  - Upload file: "upload 2.1 2.2 2.3"
+  - Fix file: "fix 2.1"
