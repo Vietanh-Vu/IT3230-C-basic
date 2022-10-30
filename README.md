@@ -1,6 +1,6 @@
 # Week 1
 
-11 exercises
+11 exercises, deadline 1/11/2022
 
 - Done at school: 1, 2, 4, 7.
 - Commit exercises:
