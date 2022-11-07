@@ -3,14 +3,13 @@
 #include<string.h>
 #define MAX_L 256
 
+// initial nodelist 
 typedef struct Profile {
     char name[MAX_L];  // ten sinh vien
     char email[MAX_L]; // email cua sinh vien
     struct Profile *next;
 } Profile;
 
-char name[MAX_L];
-int choice;
 Profile *studentsProfile;
 
 Profile *makeProfile (char name[MAX_L], char email[MAX_L]) {
@@ -34,6 +33,11 @@ Profile *insertLast (char name[MAX_L], char email[MAX_L]) {
     node->next = makeProfile(name, email);
     return studentsProfile;
 }
+
+// initial global variable 
+int choice;
+
+// FUNCTION
 
 // FUNCTION 1
 void readData () {
@@ -89,7 +93,7 @@ Profile *findStudentByName () {
 
 // FUNCTION 4
 Profile *deleteProfile() {
-    Profile *deleteStudent = findStudentByName(name);
+    Profile *deleteStudent = findStudentByName();
     Profile *currentStudent = studentsProfile;
 
     // cannot find student
@@ -113,6 +117,7 @@ Profile *deleteProfile() {
     // delete student in the end of list 
     if (currentStudent->next == NULL && currentStudent == deleteStudent) {
         currentStudent == NULL;
+        return currentStudent;
     }
 }
 
