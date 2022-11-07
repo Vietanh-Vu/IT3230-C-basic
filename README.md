@@ -4,6 +4,6 @@
 
 - Done at school: 2.
 - Commit exercises:
-  - [ ] Xuan Manh: 1, 2, 3.
+  - [x] Xuan Manh: 1, 2, 3.
   - [ ] Thanh Nam: 4, 5.
   - [x] Viet Anh: 6, 7.
