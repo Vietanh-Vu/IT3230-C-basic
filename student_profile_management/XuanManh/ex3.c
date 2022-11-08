@@ -11,6 +11,11 @@ typedef struct Profile{
 } Profile;
 
 Profile *first = NULL;
+Profile *last = NULL;
+
+int isLishNull() {
+    return first == NULL && last == NULL;
+}
 
 Profile *makeProfile(char *name, char *email) {
     Profile *p = (Profile*)malloc(sizeof(Profile));
@@ -20,16 +25,15 @@ Profile *makeProfile(char *name, char *email) {
     return p;
 }
 
-Profile *insertLast(Profile* h, char *name, char *email){
-    Profile* p = h;
-    if(h == NULL){
-        return makeProfile(name, email);
+void *insertLast(char *name, char *email){
+    Profile* p = makeProfile(name, email);
+    if(isLishNull()){
+        first = p;
+        last  = p;
+    } else {
+        last->next = p;
+        last = last->next;
     }
-    while(p->next != NULL)
-        p = p->next;
-    Profile* q = makeProfile(name, email);
-    p->next = q;
-    return h;
 }
 
 void inputFromFile(char *fileName) {
@@ -44,7 +48,7 @@ void inputFromFile(char *fileName) {
             name[strlen(name) - 1] = 0;
         if (email[strlen(email) - 1] == '\n')
             email[strlen(email) - 1] = 0;
-        first = insertLast(first, name, email);
+        insertLast(name, email);
     }
     fclose(f);
 }
@@ -59,7 +63,7 @@ void printProfiles() {
 }
 
 void addProfile(char *name, char *email) {
-    first = insertLast(first, name, email);
+    insertLast(name, email);
 }
 
 void deleteProfile(char *name) {
