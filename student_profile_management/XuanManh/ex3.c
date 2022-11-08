@@ -68,14 +68,19 @@ void addProfile(char *name, char *email) {
 
 void deleteProfile(char *name) {
     Profile *p = first;
-    Profile *q =NULL;
-    if (strcmp(p->name, name) == 0) 
+    Profile *q = NULL;
+    if (strcmp(p->name, name) == 0) {
         first = first->next;
+        free(p);
+    }
     else {
         while (1) {
             q = p->next;
             if (strcmp(q->name, name) == 0) {
+                if (last == q)
+                    last = p;
                 p->next = q->next;
+                free(q);
                 break;
             } else {
                 p = q;
@@ -123,8 +128,10 @@ void main() {
     while (!exit) {
         if (isContinue == 'y')
             printMenu();
-        else 
+        else {
             exit = true;
+            break;
+        }
         printf("Chọn chức năng: "); scanf("%d", &choice); __fpurge(stdin);
         printf("\n");
         switch (choice) {
