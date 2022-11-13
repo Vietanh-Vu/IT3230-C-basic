@@ -1,6 +1,6 @@
 # Week 2
 
-7 exercises. Deadline 15/11/2022.
+7 exercises. Deadline 10:00PM 14/11/2022.
 
 - Done at school: 2.
 - Commit exercises:
