@@ -1,9 +1,9 @@
 # Week 3
 
-_ exercises. Deadline _ / \_ / 2022.
+2 exercises. Deadline 10:00PM 21 / 11 / 2022.
 
-- Done at school: \_
+- Done at school: 
 - Commit exercises:
-  - [ ] Xuan Manh: \_
-  - [ ] Thanh Nam: \_
-  - [ ] Viet Anh: \_
+  - [ ] Xuan Manh: double, single. 
+  - [ ] Thanh Nam: double, single.
+  - [ ] Viet Anh: double, single.
