@@ -7,29 +7,36 @@
 typedef struct Profile{
     char name[256];
     char email[256];
-    struct Profile* next;
+    struct Profile *next;
+    struct Profile *prev;
 } Profile;
 
 Profile *first = NULL;
+Profile *last = NULL;
+
+int isListNull() {
+    return first == NULL && last == NULL;
+}
 
 Profile *makeProfile(char *name, char *email) {
     Profile *p = (Profile*)malloc(sizeof(Profile));
     strcpy(p->name, name);
     strcpy(p->email, email);
     p->next = NULL;
+    p->prev = NULL;
     return p;
 }
 
-Profile *insertLast(Profile* h, char *name, char *email){
-    Profile* p = h;
-    if(h == NULL){
-        return makeProfile(name, email);
+void *insertLast(char *name, char *email){
+    Profile* p = makeProfile(name, email);
+    p->prev = last;
+    if(isListNull()){
+        first = p;
+        last  = p;
+    } else {
+        last->next = p;
+        last = last->next;
     }
-    while(p->next != NULL)
-        p = p->next;
-    Profile* q = makeProfile(name, email);
-    p->next = q;
-    return h;
 }
 
 void inputFromFile(char *fileName) {
@@ -44,7 +51,7 @@ void inputFromFile(char *fileName) {
             name[strlen(name) - 1] = 0;
         if (email[strlen(email) - 1] == '\n')
             email[strlen(email) - 1] = 0;
-        first = insertLast(first, name, email);
+        insertLast(name, email);
     }
     fclose(f);
 }
@@ -52,29 +59,37 @@ void inputFromFile(char *fileName) {
 void printProfiles() {
     Profile *p = first;
     do {
-        printf("Name: %s\n", p->name);
-        printf("Email: %s\n\n", p->email);
+        printf("Name: %s\n\n", p->name);
+        printf("Email: %s\n", p->email);
         p = p->next;
     } while(p != NULL);
 }
 
 void addProfile(char *name, char *email) {
-    first = insertLast(first, name, email);
+    insertLast(name, email);
 }
 
 void deleteProfile(char *name) {
     Profile *p = first;
-    Profile *q =NULL;
-    if (strcmp(p->name, name) == 0) 
+    Profile *q = NULL;
+    if (strcmp(p->name, name) == 0) {
         first = first->next;
+        first->prev = NULL;
+        free(p);
+    }
     else {
         while (1) {
-            q = p->next;
-            if (strcmp(q->name, name) == 0) {
-                p->next = q->next;
+            if (strcmp(p->name, name) == 0) {
+                if (last == p)
+                    last = p->prev;
+                q = p->prev;
+                q->next = p->next;
+                q = p->next;
+                q->prev = p->prev;
+                free(p);
                 break;
             } else {
-                p = q;
+                p = p->next;
             }
         }
     }
@@ -119,8 +134,10 @@ void main() {
     while (!exit) {
         if (isContinue == 'y')
             printMenu();
-        else 
+        else {
             exit = true;
+            break;
+        }
         printf("Chọn chức năng: "); scanf("%d", &choice); __fpurge(stdin);
         printf("\n");
         switch (choice) {
@@ -131,7 +148,7 @@ void main() {
             }
                 break;
             case 2: {
-                printf("DANH SÁCH SINH VIÊN:\n\n");
+                printf("DANH SÁCH SINH VIÊN:\n");
                 printProfiles();
             }
                 break;
@@ -167,7 +184,7 @@ void main() {
         }
         __fpurge(stdin);
         if (!exit) {
-            printf("Tiếp tục ? (y/n): "); scanf("%c", &isContinue); __fpurge(stdin);
+            printf("\nTiếp tục ? (y/n): "); scanf("%c", &isContinue); __fpurge(stdin);
         }
     }
     free(first);
