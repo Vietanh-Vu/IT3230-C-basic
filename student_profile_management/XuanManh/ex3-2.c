@@ -7,13 +7,14 @@
 typedef struct Profile{
     char name[256];
     char email[256];
-    struct Profile* next;
+    struct Profile *next;
+    struct Profile *prev;
 } Profile;
 
 Profile *first = NULL;
 Profile *last = NULL;
 
-int isLishNull() {
+int isListNull() {
     return first == NULL && last == NULL;
 }
 
@@ -22,12 +23,14 @@ Profile *makeProfile(char *name, char *email) {
     strcpy(p->name, name);
     strcpy(p->email, email);
     p->next = NULL;
+    p->prev = NULL;
     return p;
 }
 
 void *insertLast(char *name, char *email){
     Profile* p = makeProfile(name, email);
-    if(isLishNull()){
+    p->prev = last;
+    if(isListNull()){
         first = p;
         last  = p;
     } else {
@@ -56,8 +59,8 @@ void inputFromFile(char *fileName) {
 void printProfiles() {
     Profile *p = first;
     do {
-        printf("Name: %s\n", p->name);
-        printf("Email: %s\n\n", p->email);
+        printf("Name: %s\n\n", p->name);
+        printf("Email: %s\n", p->email);
         p = p->next;
     } while(p != NULL);
 }
@@ -71,19 +74,22 @@ void deleteProfile(char *name) {
     Profile *q = NULL;
     if (strcmp(p->name, name) == 0) {
         first = first->next;
+        first->prev = NULL;
         free(p);
     }
     else {
         while (1) {
-            q = p->next;
-            if (strcmp(q->name, name) == 0) {
-                if (last == q)
-                    last = p;
-                p->next = q->next;
-                free(q);
+            if (strcmp(p->name, name) == 0) {
+                if (last == p)
+                    last = p->prev;
+                q = p->prev;
+                q->next = p->next;
+                q = p->next;
+                q->prev = p->prev;
+                free(p);
                 break;
             } else {
-                p = q;
+                p = p->next;
             }
         }
     }
@@ -142,7 +148,7 @@ void main() {
             }
                 break;
             case 2: {
-                printf("DANH SÁCH SINH VIÊN:\n\n");
+                printf("DANH SÁCH SINH VIÊN:\n");
                 printProfiles();
             }
                 break;
@@ -178,7 +184,7 @@ void main() {
         }
         __fpurge(stdin);
         if (!exit) {
-            printf("Tiếp tục ? (y/n): "); scanf("%c", &isContinue); __fpurge(stdin);
+            printf("\nTiếp tục ? (y/n): "); scanf("%c", &isContinue); __fpurge(stdin);
         }
     }
     free(first);
