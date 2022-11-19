@@ -102,6 +102,7 @@ Profile *deleteProfile() {
     // delete student is the first student in list 
     if (deleteStudent == currentStudent) { 
         studentsProfile = deleteStudent->next;
+        free(deleteStudent);
         return studentsProfile;
     } 
 
@@ -109,6 +110,7 @@ Profile *deleteProfile() {
     while (currentStudent->next != NULL) {
         if (currentStudent->next == deleteStudent) {
             currentStudent->next = deleteStudent->next;
+            free(deleteStudent);
             return studentsProfile;
         }
         currentStudent = currentStudent->next;
