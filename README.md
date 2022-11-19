@@ -6,4 +6,4 @@
 - Commit exercises:
   - [x] Xuan Manh: double, single. 
   - [ ] Thanh Nam: double, single.
-  - [ ] Viet Anh: double, single.
+  - [x] Viet Anh: double, single.
