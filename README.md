@@ -4,6 +4,12 @@
 
 - Done at school: 
 - Commit exercises:
-  - [x] Xuan Manh: double, single. 
-  - [ ] Thanh Nam: double, single.
-  - [x] Viet Anh: double, single.
+  - Xuan Manh: 
+    - [x] double. 
+    - [x] single. 
+  - Thanh Nam: 
+    - [ ] double. 
+    - [ ] single.
+  - Viet Anh: 
+    - [x] double. 
+    - [x] single.
