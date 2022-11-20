@@ -12,8 +12,6 @@ typedef struct Node{
 
 Node *head;
 Node *tail;
-Node listNode[MAX*MAX];
-int szList = 0;
 int A[MAX][MAX];
 int r,c;
 int r0,c0;
