@@ -4,11 +4,11 @@
 - Done at school:
 - Commit exercises:
   - Viet Anh: 
-    - [ ] 
-    - [ ] 
+    - [ ] .
+    - [ ] .
   - Xuan Manh: 
-    - [ ] 
-    - [ ] 
+    - [ ] .
+    - [ ] .
   - Thanh Nam: 
-    - [ ] 
-    - [ ] 
+    - [ ] .
+    - [ ] .
