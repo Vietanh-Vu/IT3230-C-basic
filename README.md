@@ -7,7 +7,7 @@
     - [x] check_bracket_expression.
     - [x] maze.
   - Xuan Manh: 
-    - [ ] check_bracket_expression.
+    - [ ] check_bracket_expression.   
     - [ ] maze.
   - Thanh Nam: 
     - [ ] check_bracket_expression.
