@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define MAX 100
+#define MAX 1000
 
 // declare variable
 typedef struct Node{
@@ -61,26 +61,28 @@ Node* deQueue() {
 
 // get value from file
 void input() {
-    FILE *f = fopen("maze.txt","r");
+    // FILE *f = fopen("maze.txt","r");
     // initial maze 
-    fscanf(f,"%d %d %d %d\n", &r, &c, &r0, &c0);
+    // fscanf(f,"%d %d %d %d\n", &r, &c, &r0, &c0);
+    scanf("%d %d %d %d\n", &r, &c, &r0, &c0);
     // input A
-    for (int i = 0; i<r; i++) {
-        for (int j = 0; j<c; j++) {
-            fscanf(f,"%d ",&A[i][j]);
+    for (int i = 1; i<=r; i++) {
+        for (int j = 1; j<=c; j++) {
+            // fscanf(f,"%d ",&A[i][j]);
+            scanf("%d ",&A[i][j]);
         }
     }
     // input visited
-    for (int i = 0; i<r; i++) {
-        for (int j = 0; j<c; j++) {
+    for (int i = 1; i<=r; i++) {
+        for (int j = 1; j<=c; j++) {
             visited[i][j] = A[i][j];
         }
     }
-    fclose(f);
+    // fclose(f);
 }
 
 int isInEdge(int row, int col) {
-    return row == 0 || row == r || col == 0 || col == c;
+    return row == 1 || row == r || col == 1 || col == c;
 }
 
 
@@ -103,7 +105,7 @@ int main() {
         // if (tail == NULL) printf("null\n");
         // else printf("tail: (%d, %d)\n", tail->row, tail->col);
 
-		printf("POP (%d,%d)\n",curNode->row,curNode->col);
+		// printf("POP (%d,%d)\n",curNode->row,curNode->col);
 
         for (int i=0; i<4; i++) { // down up right left
             int curR = curNode->row + dr[i];
@@ -127,10 +129,11 @@ int main() {
         if (finalNode != NULL) break;
     }
     
-    Node *tmp = finalNode;
-    while (tmp!=NULL) {
-        printf("(%d,%d) ", tmp->row, tmp->col);
-        tmp = tmp->parent;
-    }
+    // Node *tmp = finalNode;
+    // while (tmp!=NULL) {
+    //     printf("(%d,%d) ", tmp->row, tmp->col);
+    //     tmp = tmp->parent;
+    // }
+    printf("%d ", finalNode->step + 1);
     return 0;
 }
