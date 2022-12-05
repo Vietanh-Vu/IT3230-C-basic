@@ -1,4 +1,4 @@
-# Week 3
+# Week 7-8
 
 _ exercises. Deadline 10:00PM _ / \_ / 2022.
 
