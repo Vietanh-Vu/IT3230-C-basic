@@ -1,14 +1,50 @@
 # Week 6
-2 exercises. Deadline 10:00PM _ / _ / 2022.
+Many exercises. Deadline 10:00PM _ / _ / 2022.
 
 - Done at school:
 - Commit exercises:
   - Viet Anh: 
-    - [ ] .
-    - [ ] .
+    - De quy: 
+      - [ ] Fibonacci. 
+      - [ ] C(k,n).
+    - De quy co nho: 
+      - [ ] C(k,n) 
+      - [ ] Hanoi Tower.
+    - De quy quay lui: 
+      - [ ] Liet ke xau nhi phan. 
+      - [ ] Liet ke to hop. 
+      - [ ] Liet ke hoan vi. 
+      - [ ] Bai toan xep hau. 
+      - [ ] Nghiem nguyen duong. (X~1 + X~2 + ... + X~N = M) 
+      - [ ] Sudoku.
+      - [ ] Nghiem nguyen duong. (A~1X~1 + A~2X~2 + ... + A~NX~N = M) 
   - Xuan Manh: 
-    - [ ] .
-    - [ ] .
+    - De quy: 
+      - [ ] Fibonacci. 
+      - [ ] C(k,n).
+    - De quy co nho: 
+      - [ ] C(k,n) 
+      - [ ] Hanoi Tower.
+    - De quy quay lui: 
+      - [ ] Liet ke xau nhi phan. 
+      - [ ] Liet ke to hop. 
+      - [ ] Liet ke hoan vi. 
+      - [ ] Bai toan xep hau. 
+      - [ ] Nghiem nguyen duong. (X~1 + X~2 + ... + X~N = M) 
+      - [ ] Sudoku.
+      - [ ] Nghiem nguyen duong. (A~1X~1 + A~2X~2 + ... + A~NX~N = M) 
   - Thanh Nam: 
-    - [ ] .
-    - [ ] .
+    - De quy: 
+      - [ ] Fibonacci. 
+      - [ ] C(k,n).
+    - De quy co nho: 
+      - [ ] C(k,n) 
+      - [ ] Hanoi Tower.
+    - De quy quay lui: 
+      - [ ] Liet ke xau nhi phan. 
+      - [ ] Liet ke to hop. 
+      - [ ] Liet ke hoan vi. 
+      - [ ] Bai toan xep hau. 
+      - [ ] Nghiem nguyen duong. (X~1 + X~2 + ... + X~N = M) 
+      - [ ] Sudoku.
+      - [ ] Nghiem nguyen duong. (A~1X~1 + A~2X~2 + ... + A~NX~N = M) 
