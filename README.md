@@ -15,9 +15,9 @@ Many exercises. Deadline 10:00PM _ / _ / 2022.
       - [ ] Liet ke to hop. 
       - [ ] Liet ke hoan vi. 
       - [ ] Bai toan xep hau. 
-      - [ ] Nghiem nguyen duong. (X~1 + X~2 + ... + X~N = M) 
+      - [ ] Nghiem nguyen duong. (X<sub>1</sub> + X<sub>2</sub> + ... + X<sub>N</sub> = M) 
       - [ ] Sudoku.
-      - [ ] Nghiem nguyen duong. (A~1X~1 + A~2X~2 + ... + A~NX~N = M) 
+      - [ ] Nghiem nguyen duong. (A<sub>1</sub>X<sub>1</sub> + A<sub>2</sub>X<sub>2</sub> + ... + A<sub>N</sub>X<sub>N</sub> = M) 
   - Xuan Manh: 
     - De quy: 
       - [ ] Fibonacci. 
@@ -30,9 +30,9 @@ Many exercises. Deadline 10:00PM _ / _ / 2022.
       - [ ] Liet ke to hop. 
       - [ ] Liet ke hoan vi. 
       - [ ] Bai toan xep hau. 
-      - [ ] Nghiem nguyen duong. (X~1 + X~2 + ... + X~N = M) 
+      - [ ] Nghiem nguyen duong. (X<sub>1</sub> + X<sub>2</sub> + ... + X<sub>N</sub> = M) 
       - [ ] Sudoku.
-      - [ ] Nghiem nguyen duong. (A~1X~1 + A~2X~2 + ... + A~NX~N = M) 
+      - [ ] Nghiem nguyen duong. (A<sub>1</sub>X<sub>1</sub> + A<sub>2</sub>X<sub>2</sub> + ... + A<sub>N</sub>X<sub>N</sub> = M) 
   - Thanh Nam: 
     - De quy: 
       - [ ] Fibonacci. 
@@ -45,6 +45,6 @@ Many exercises. Deadline 10:00PM _ / _ / 2022.
       - [ ] Liet ke to hop. 
       - [ ] Liet ke hoan vi. 
       - [ ] Bai toan xep hau. 
-      - [ ] Nghiem nguyen duong. (X~1 + X~2 + ... + X~N = M) 
+      - [ ] Nghiem nguyen duong. (X<sub>1</sub> + X<sub>2</sub> + ... + X<sub>N</sub> = M) 
       - [ ] Sudoku.
-      - [ ] Nghiem nguyen duong. (A~1X~1 + A~2X~2 + ... + A~NX~N = M) 
+      - [ ] Nghiem nguyen duong. (A<sub>1</sub>X<sub>1</sub> + A<sub>2</sub>X<sub>2</sub> + ... + A<sub>N</sub>X<sub>N</sub> = M)
