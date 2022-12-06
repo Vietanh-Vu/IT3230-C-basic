@@ -8,5 +8,6 @@ _ exercises. Deadline 10:00PM _ / \_ / 2022.
     - [ ] .
   - Thanh Nam:
     - [ ] .
+    - [ ] .
   - Viet Anh:
     - [ ] .
