@@ -35,16 +35,16 @@ Many exercises. Deadline 10:00PM _ / _ / 2022.
       - [ ] Nghiem nguyen duong. (A<sub>1</sub>X<sub>1</sub> + A<sub>2</sub>X<sub>2</sub> + ... + A<sub>N</sub>X<sub>N</sub> = M) 
   - Thanh Nam: 
     - De quy: 
-      - [ ] Fibonacci. 
-      - [ ] C(k,n).
+      - [x] Fibonacci. 
+      - [x] C(k,n).
     - De quy co nho: 
-      - [ ] C(k,n) 
-      - [ ] Hanoi Tower.
+      - [x] C(k,n) 
+      - [x] Hanoi Tower.
     - De quy quay lui: 
-      - [ ] Liet ke xau nhi phan. 
-      - [ ] Liet ke to hop. 
-      - [ ] Liet ke hoan vi. 
-      - [ ] Bai toan xep hau. 
-      - [ ] Nghiem nguyen duong. (X<sub>1</sub> + X<sub>2</sub> + ... + X<sub>N</sub> = M) 
-      - [ ] Sudoku.
-      - [ ] Nghiem nguyen duong. (A<sub>1</sub>X<sub>1</sub> + A<sub>2</sub>X<sub>2</sub> + ... + A<sub>N</sub>X<sub>N</sub> = M)
+      - [x] Liet ke xau nhi phan. 
+      - [x] Liet ke to hop. 
+      - [x] Liet ke hoan vi. 
+      - [x] Bai toan xep hau. 
+      - [x] Nghiem nguyen duong. (X<sub>1</sub> + X<sub>2</sub> + ... + X<sub>N</sub> = M) 
+      - [x] Sudoku.
+      - [x] Nghiem nguyen duong. (A<sub>1</sub>X<sub>1</sub> + A<sub>2</sub>X<sub>2</sub> + ... + A<sub>N</sub>X<sub>N</sub> = M)
