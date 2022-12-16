@@ -1,6 +1,6 @@
 # Week 7-8
 
-1 exercises. Deadline 10:00PM 20 / 12 / 2022.
+2 exercises. Deadline 10:00PM 20 / 12 / 2022.
 
 - Done at school:
 - Commit exercises:
