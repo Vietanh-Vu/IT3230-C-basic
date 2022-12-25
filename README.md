@@ -1,21 +1,5 @@
 # Week 3-4
 
-2 exercises. Deadline 10:00PM 21 / 11 / 2022.
-
-- Done at school:
-- Commit exercises:
-  - Xuan Manh:
-    - [x] double.
-    - [x] single.
-  - Thanh Nam:
-    - [ ] double.
-    - [ ] single.
-  - Viet Anh:
-    - [x] double.
-    - [x] single.
-
-# Week 3-4
-
 This directory contains the exercises for week 3 and 4 of the course. There are a total of 2 exercises, with a deadline of 10:00 PM on 21/11/2022.
 
 ## Exercises Done at School
