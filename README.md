@@ -9,9 +9,9 @@ This repository contains the source code for the C programming basic course. Eac
 
 ## File Structure
 
-- The source code for each exercise should be stored in a separate file, named using the following convention: `ex[exercise number]-[part number].c`. 
+- The source code for each exercise should be stored in a separate file, named using the following convention: `ex[exercise number]-[part number].c` or special name of this exercise.
   
-  For example, the file for exercise 2.1 would be named `ex2-1.c`.
+  For example, the file for exercise 2.1 would be named `ex2-1.c` or `double.c`.
 
 ## Usage
 
