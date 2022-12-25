@@ -1,4 +1,4 @@
-# Week 2
+# Week 2: Structures, dynamic allocation review and Memory Image based File operations
 
 This directory contains the exercises for week 2 of the course. There are a total of 7 exercises, with a deadline of 10:00 PM on 14/11/2022.
 
