@@ -5,17 +5,17 @@
 - Done at school:
 - Commit exercises:
   - Xuan Manh:
-    - [ ] Exercise 1.
-    - [ ] Exercise 2.
-    - [ ] Exercise 3.
-    - [ ] Exercise 4.
+    - [ ] Exercise 1: random array.
+    - [ ] Exercise 2: selection sort.
+    - [ ] Exercise 3: insertion sort.
+    - [ ] Exercise 4: bubble sort.
   - Thanh Nam:
-    - [ ] Exercise 1.
-    - [ ] Exercise 2.
-    - [ ] Exercise 3.
-    - [ ] Exercise 4.
+    - [ ] Exercise 1: random array.
+    - [ ] Exercise 2: selection sort.
+    - [ ] Exercise 3: insertion sort.
+    - [ ] Exercise 4: bubble sort.
   - Viet Anh:
-    - [ ] Exercise 1.
-    - [ ] Exercise 2.
-    - [ ] Exercise 3.
-    - [ ] Exercise 4.
+    - [x] Exercise 1: random array.
+    - [x] Exercise 2: selection sort.
+    - [x] Exercise 3: insertion sort.
+    - [x] Exercise 4: bubble sort.
