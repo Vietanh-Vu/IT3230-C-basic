@@ -1,4 +1,4 @@
-# Week 6
+# Week 6: Recursion
 
 This directory contains the exercises for week 6 of the course. There are a total of 11 exercises, with a deadline of 10:00 PM on 5/12/2022.
 
