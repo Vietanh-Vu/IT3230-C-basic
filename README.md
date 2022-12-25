@@ -1,4 +1,4 @@
-# Week 5
+# Week 5: Stack and Queue
 
 This directory contains the exercises for week 5 of the course. There are a total of 2 exercises, with a deadline of 10:00 PM on 28/11/2022.
 
