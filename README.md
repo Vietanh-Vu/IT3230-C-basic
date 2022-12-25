@@ -1,4 +1,4 @@
-# Week 7-8
+# Week 7-8: Tree
 
 This directory contains the exercises for week 7-and 8 of the course. There are a total of 2 exercises, with a deadline of 10:00 PM on 20/12/2022.
 
