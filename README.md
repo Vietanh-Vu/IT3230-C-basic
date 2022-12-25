@@ -1,4 +1,4 @@
-# Week 1
+# Week 1: Basic Data Structures and Algorithms
 
 This directory contains the exercises for week 1 of the course. There are a total of 11 exercises, with a deadline of 10:00 PM on 31/10/2022.
 
