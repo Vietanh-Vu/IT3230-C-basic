@@ -1,6 +1,6 @@
-# Week 10: Sorting: selection, insertion and bubble sort.
+# Week 11: Search: binary search.
 
-This directory contains the exercises for week 10 of the course. There are a total of 4 exercises, with a deadline of 10:00 PM on 02/01/2023.
+This directory contains the exercises for week 11 of the course. There are a total of 2 exercises, with a deadline of 10:00 PM on 02/01/2023.
 
 ## Exercises Done at School
 
@@ -9,20 +9,14 @@ List any exercises that were completed in class here.
 ## Commit Exercises
 
 - Xuan Manh:
-  - [ ] Exercise 1: Profile.
-  - [ ] Exercise 2: merge sort.
-  - [ ] Exercise 3: quick sort.
-  - [ ] Exercise 4: heap sort.
+  - [ ] Exercise 1: Binary search in array.
+  - [ ] Exercise 2: Profile management.
 - Thanh Nam:
-  - [ ] Exercise 1: Profile.
-  - [ ] Exercise 2: merge sort.
-  - [ ] Exercise 3: quick sort.
-  - [ ] Exercise 4: heap sort.
+  - [ ] Exercise 1: Binary search in array.
+  - [ ] Exercise 2: Profile management.
 - Viet Anh:
-  - [ ] Exercise 1: Profile.
-  - [ ] Exercise 2: merge sort.
-  - [ ] Exercise 3: quick sort.
-  - [ ] Exercise 4: heap sort.
+  - [ ] Exercise 1: Binary search in array.
+  - [ ] Exercise 2: Profile management.
 
 To mark an exercise as completed, simply place an "x" in the square brackets next to the exercise number. For example, to mark exercise 1 as completed, you would write "[x] 1".
 
