@@ -1,4 +1,4 @@
-# Week 10: Sorting: selection, insertion and bubble sort.
+# Week 10: Sorting: merge, quick and heap sort.
 
 This directory contains the exercises for week 10 of the course. There are a total of 4 exercises, with a deadline of 10:00 PM on 02/01/2023.
 
