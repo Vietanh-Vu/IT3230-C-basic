@@ -63,44 +63,48 @@ void swap(student *a, student *b)
     *b = tmp;
 }
 
-int partition(student A[], int L, int R, int pivotIndex)
+void heapify(student A[], int i, int n)
 {
-    student pivot = A[pivotIndex];
-    int storeIndex = L;
-    swap(&A[pivotIndex], &A[R]);
-    for (int i = L; i <= R - 1; i++)
+    int L = 2 * i;
+    int R = 2 * i + 1;
+    int max = i;
+    if (L <= n && cmp(A[i], A[L]) < 0)
     {
-        if (cmp(A[i], pivot) < 0)
-        {
-            swap(&A[storeIndex], &A[i]);
-            storeIndex++;
-        }
+        max = L;
     }
-    swap(&A[R], &A[storeIndex]);
-    return storeIndex;
+    if (R <= n && cmp(A[max], A[R]) < 0)
+    {
+        max = R;
+    }
+    if (max != i)
+    {
+        swap(&A[i], &A[max]);
+        heapify(A, max, n);
+    }    
 }
 
-void quickSort(student A[], int L, int R)
+void buildHeap(student A[], int n)
 {
-    if (L < R)
+    for (int i = n / 2; i >= 1; i--)
     {
-        int pivot = (L + R) / 2;
-        pivot = partition(A, L, R, pivot);
-        if (L < pivot)
-        {
-            quickSort(A, L, pivot - 1);
-        }
-        if (pivot < R)
-        {
-            quickSort(A, pivot + 1, R);
-        }
+        heapify(A, i, n);
+    }
+}
+
+void heapSort(student A[], int n)
+{
+    buildHeap(A, n);
+    for (int i = n; i > 1; i--)
+    {
+        swap(&A[1], &A[i]);
+        heapify(A, 1, i - 1);
     }
 }
 
 int main()
 {
     readFromFile();
-    quickSort(students, 1, n);
+    heapSort(students, n);
     writeToFile();
     return 0;
 }
