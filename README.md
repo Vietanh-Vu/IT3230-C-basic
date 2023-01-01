@@ -9,10 +9,10 @@ List any exercises that were completed in class here.
 ## Commit Exercises
 
 - Xuan Manh:
-  - [ ] Exercise 1: Profile.
-  - [ ] Exercise 2: merge sort.
-  - [ ] Exercise 3: quick sort.
-  - [ ] Exercise 4: heap sort.
+  - [x] Exercise 1: Profile.
+  - [x] Exercise 2: merge sort.
+  - [x] Exercise 3: quick sort.
+  - [x] Exercise 4: heap sort.
 - Thanh Nam:
   - [ ] Exercise 1: Profile.
   - [ ] Exercise 2: merge sort.
