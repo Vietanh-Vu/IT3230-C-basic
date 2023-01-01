@@ -19,10 +19,10 @@ List any exercises that were completed in class here.
   - [ ] Exercise 3: quick sort.
   - [ ] Exercise 4: heap sort.
 - Viet Anh:
-  - [ ] Exercise 1: Profile.
-  - [ ] Exercise 2: merge sort.
-  - [ ] Exercise 3: quick sort.
-  - [ ] Exercise 4: heap sort.
+  - [x] Exercise 1: Profile.
+  - [x] Exercise 2: merge sort.
+  - [x] Exercise 3: quick sort.
+  - [x] Exercise 4: heap sort.
 
 To mark an exercise as completed, simply place an "x" in the square brackets next to the exercise number. For example, to mark exercise 1 as completed, you would write "[x] 1".
 
