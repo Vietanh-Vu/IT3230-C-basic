@@ -1,4 +1,4 @@
-# Week 9: Sorting: selection, insertion and bubble sort.
+# Week 9: Sorting: Selection, Insertion and Bubble Sort.
 
 This directory contains the exercises for week 9 of the course. There are a total of 4 exercises, with a deadline of 10:00 PM on 26/12/2022.
 
