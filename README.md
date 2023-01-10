@@ -1,6 +1,6 @@
 # Week 11: Search: Binary Search.
 
-This directory contains the exercises for week 11 of the course. There are a total of 2 exercises, with a deadline of 10:00 PM on 02/01/2023.
+This directory contains the exercises for week 11 of the course. There are a total of 2 exercises, with a deadline of 10:00 PM on 10/01/2023.
 
 ## Exercises Done at School
 
