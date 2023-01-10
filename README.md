@@ -9,13 +9,13 @@ List any exercises that were completed in class here.
 ## Commit Exercises
 
 - Xuan Manh:
-  - [ ] Exercise 1: Binary search in array.
+  - [x] Exercise 1: Binary search in array.
   - [ ] Exercise 2: Profile management.
 - Thanh Nam:
   - [ ] Exercise 1: Binary search in array.
   - [ ] Exercise 2: Profile management.
 - Viet Anh:
-  - [ ] Exercise 1: Binary search in array.
+  - [x] Exercise 1: Binary search in array.
   - [ ] Exercise 2: Profile management.
 
 To mark an exercise as completed, simply place an "x" in the square brackets next to the exercise number. For example, to mark exercise 1 as completed, you would write "[x] 1".
