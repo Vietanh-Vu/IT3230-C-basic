@@ -1,4 +1,4 @@
-# Week 3-4: Linked list
+# Week 3-4: Linked List
 
 This directory contains the exercises for week 3 and 4 of the course. There are a total of 2 exercises, with a deadline of 10:00 PM on 21/11/2022.
 
