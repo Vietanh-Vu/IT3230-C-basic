@@ -1,4 +1,4 @@
-# Week 12: Search: binary search.
+# Week 12: Search: Binary Search Tree.
 
 This directory contains the exercises for week 12 of the course. There are a total of 1 exercise, with a deadline of 10:00 PM on 16/01/2023.
 
