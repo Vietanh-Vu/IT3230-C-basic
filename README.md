@@ -13,7 +13,7 @@ List any exercises that were completed in class here.
 - Thanh Nam:
   - [ ] Exercise 1: BST Student Profile Management.
 - Viet Anh:
-  - [ ] Exercise 1: BST Student Profile Management.
+  - [x] Exercise 1: BST Student Profile Management.
 
 To mark an exercise as completed, simply place an "x" in the square brackets next to the exercise number. For example, to mark exercise 1 as completed, you would write "[x] 1".
 
