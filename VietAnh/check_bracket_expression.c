@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-typedef struct {
+typedef struct Node{
     char c;
     struct Node * next;
 } Node;
@@ -59,11 +59,12 @@ int check(char* s){
 
 int main() {
     char input[100];
-    printf("Input bracket expression: "); scanf("%s", &input);
+    // printf("Input bracket expression: "); 
+    scanf("%s", &input);
     if (check(input)) {
-        printf("Valid!");
+        printf("1");
     } else {
-        printf("Invalid!");
+        printf("0");
     }
     return 0;
 }
