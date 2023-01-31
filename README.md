@@ -13,7 +13,7 @@ List any exercises that were completed in class here.
   - [ ] Binary tree.
 - Thanh Nam:
   - [ ] Normal tree.
-  - [ ] Binary tree.
+  - [x] Binary tree.
 - Viet Anh:
   - [ ] Normal tree.
   - [ ] Binary tree.
