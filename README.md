@@ -9,7 +9,7 @@ List any exercises that were completed in class here.
 ## Commit Exercises
 
 - Xuan Manh:
-  - [ ] Exercise 1: BST Student Profile Management.
+  - [x] Exercise 1: BST Student Profile Management.
 - Thanh Nam:
   - [ ] Exercise 1: BST Student Profile Management.
 - Viet Anh:
