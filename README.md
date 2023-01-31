@@ -31,3 +31,9 @@ Remember to include a descriptive commit message explaining the changes you are 
 
 - Be sure to read the instructions for each exercise carefully, and ask for help if you get stuck.
 - Remember to commit and push your changes regularly, so that you have a history of your progress and can easily go back to previous versions if needed.
+
+## Members of the Team
+
+- Vu Viet Anh
+- Nguyen Xuan Manh
+- Tran Thanh Nam
