@@ -6,13 +6,13 @@ int choice;
 
 void printMenu() {
     printf("\n-------------------------------------\n");
-    printf("1. Doc file.\n");
-    printf("2. Tim kiem theo ma chung khoan.\n");
-    printf("3. Tim kiem nhung ma chung khoan co xu huong tang.\n");
-    printf("4. Tim ma co so ngay tang lon nhat.\n");
-    printf("5. Thoat chuong trinh.\n");
+    printf("1. Name feature 1.\n");
+    printf("2. Name feature 2.\n");
+    printf("3. Name feature 3.\n");
+    printf("4. Name feature 4.\n");
+    printf("5. Name feature 5.\n");
     printf("-------------------------------------\n");
-    printf("Nhap lua chon (1-5): "); scanf("%d", &choice);
+    printf("Enter your choice (1-5): "); scanf("%d", &choice);
     printf("-------------------------------------\n");
 }
 
@@ -33,7 +33,7 @@ int main() {
             
                 break;
             case 5:
-                printf("Vu Viet Anh 20215261\n");
+                printf("Exit\n");
                 break;
             default:
                 printf("Invalid!\n");
